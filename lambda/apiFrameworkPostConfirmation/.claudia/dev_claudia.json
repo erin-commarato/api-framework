@@ -1,0 +1,7 @@
+{
+  "lambda": {
+    "role": "apiFrameworkPostConfirmation_dev-executor",
+    "name": "apiFrameworkPostConfirmation_dev",
+    "region": "us-east-1"
+  }
+}

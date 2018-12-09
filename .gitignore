@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+
+# Config
+*-env.json
+
+# VS Code debugging
+.vscode
+
+# NPM
+npm-debug.log*
+node_modules/
+

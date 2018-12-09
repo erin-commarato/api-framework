@@ -1,0 +1,18 @@
+{
+  "name": "apiFrameworkSignup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "node ../../common/utils/create.js",
+    "update": "node ../../common/utils/update.js",
+    "test-dev": "claudia test-lambda --config ./.claudia/dev_claudia.json --event test-event.json --profile personal"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cognito": "file:../../common/cognito",
+    "faker": "^4.1.0"
+  }
+}
